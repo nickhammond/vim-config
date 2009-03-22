@@ -29,6 +29,8 @@ map <leader>r :FuzzyFinderMruFile<CR>
 map <leader>R :ruby finder.rescan!<CR>:FuzzyFinderRemoveCache<CR>:exe ":echo 'rescan complete'"<CR>
 map <leader>tl :TlistOpen<CR>
 map <leader>s :Scratch<CR>
+map <S-Left> gT
+map <S-Right> gt
 " Fuzzy options
 let g:fuzzy_ignore = "*.log"
 let g:fuzzy_matching_limit = 70
